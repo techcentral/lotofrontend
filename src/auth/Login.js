@@ -7,7 +7,7 @@ export default function Login({ onLogin }) {
 
   const handleLogin = async () => {
     try {
-      const res = await axios.post("https://your-backend-url.onrender.com/api/auth/login", {
+      const res = await axios.post("https://lotobackend-om8a.onrender.com", {
         username,
         password
       });
