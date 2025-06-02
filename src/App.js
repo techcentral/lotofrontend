@@ -8,7 +8,7 @@ export default function App() {
   const [price, setPrice] = useState("");
   const [tickets, setTickets] = useState([]);
 
-  const API = "https://your-backend-url.onrender.com/api";
+  const API = "https://lotobackend-om8a.onrender.com";
 
   const fetchTickets = async () => {
     try {
